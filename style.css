@@ -26,7 +26,7 @@ body {
     border: 1px solid black;
 }
 
-.header img {
+.header .icon {
     width: 2.5rem;
 }
 
@@ -38,7 +38,44 @@ body {
 
 .search-bar {
     flex: 1;
-    height: 65%;
+    height: 1.75rem;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.user-container h3 {
+    margin: 0;
+}
+
+.user-photo {
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.greeting-container {
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    align-items: center;
+}
+
+.greeting-photo {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.greeting-container p,
+.greeting-container h2 {
+    margin: 0;
+}
+
+.greeting-container p {
+    padding-bottom: 5px;
 }
 
 /* SIDEBAR */
@@ -65,7 +102,7 @@ body {
     gap: 5px;
 }
 
-.logo > img {
+.logo-icon {
     width: 4.5rem;
 }
 
