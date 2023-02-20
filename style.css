@@ -16,7 +16,29 @@ body {
 /* HEADER */
 
 .header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1.5fr;
+    padding: 10px 20px;
+}
 
+.header > div {
+    border: 1px solid black;
+}
+
+.header img {
+    width: 2.5rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    flex: 1;
+    height: 65%;
 }
 
 /* SIDEBAR */
@@ -31,6 +53,7 @@ body {
 .logo,
 .sidebar li {
     display: flex;
+    align-items: center;
 }
 
 .sidebar ul {
