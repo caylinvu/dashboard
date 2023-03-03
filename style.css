@@ -22,12 +22,7 @@ body {
     min-height: 100vh;
 }
 
-.container > div {
-/*     border: 1px solid black;
-    background-color: pink; */
-}
-
-/* HEADER */
+/* --------------------HEADER-------------------- */
 
 .header {
     display: grid;
@@ -45,6 +40,8 @@ body {
     width: var(--icon-size);
     cursor: pointer;
 }
+
+/* --------------------SEARCH BAR-------------------- */
 
 .search-container {
     display: flex;
@@ -66,6 +63,8 @@ body {
     outline: none;
 }
 
+/* --------------------USER INFO (TOP RIGHT)-------------------- */
+
 .user-container {
     display: flex;
     align-items: center;
@@ -84,6 +83,8 @@ body {
     margin-left: 15px;
     cursor: pointer;
 }
+
+/* --------------------GREETING SECTION-------------------- */
 
 .greeting-container {
     display: flex;
@@ -112,6 +113,8 @@ body {
     font-size: 27px;
 }
 
+/* --------------------BUTTONS-------------------- */
+
 .btn-container {
     display: flex;
     align-items: center;
@@ -131,7 +134,7 @@ body {
     cursor: pointer;
 }
 
-/* SIDEBAR */
+/* --------------------SIDEBAR-------------------- */
 
 .sidebar {
     grid-row: 1 / 3;
@@ -140,10 +143,6 @@ body {
     padding: 15px 20px;
     grid-template-rows: auto auto 1fr;
     background: var(--primary-color);
-}
-
-.sidebar .main-links {
-/*     padding-bottom: 10px; */
 }
 
 .logo h1 {
@@ -194,7 +193,7 @@ li img {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(158deg) brightness(103%) contrast(103%);
 }
 
-/* MAIN CONTENT */
+/* --------------------MAIN CONTENT-------------------- */
 
 .main-content {
     display: grid;
@@ -203,10 +202,6 @@ li img {
     padding: 40px;
     gap: 40px;
     background-color: var(--gray1);
-}
-
-.main-content > div {
-/*     border: 1px solid black; */
 }
 
 .main-content h2 {
@@ -240,8 +235,7 @@ li img {
     filter: invert(7%) sepia(1%) saturate(3433%) hue-rotate(318deg) brightness(98%) contrast(67%);
 }
 
-
-/* PROJECTS */
+/* --------------------PROJECTS-------------------- */
 
 .project-container {
     grid-row: 1 / 3;
@@ -291,11 +285,7 @@ li img {
     font-size: 18px;
 }
 
-/* ANNOUNCEMENTS */
-
-.announcement-container {
-
-}
+/* --------------------ANNOUNCEMENTS-------------------- */
 
 .announcement-card {
     padding: 15px 35px;
@@ -323,11 +313,7 @@ li img {
     font-size: 15px;
 }
 
-/* TRENDING */
-
-.trending-container {
-
-}
+/* --------------------TRENDING-------------------- */
 
 .trending-card {
     padding: 20px 30px;
@@ -354,5 +340,4 @@ li img {
     padding-bottom: 5px;
     font-weight: 600;
     cursor: pointer;
-/*     color: black; */
 }
